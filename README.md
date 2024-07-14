@@ -7,3 +7,5 @@ install.packages(c("rvest","dplyr","purrr","parallel","parallelMap"))
 在email处输入需要爬取的bgm邮箱，在文末修改文档保存地址。
 
 修改url_get_game中的url可以实现爬取其他对象，如将collect修改为wish可实现爬取想玩的游戏，将game修改为anime可实现爬取看过的动画。
+
+修改get-game函数中html_nodes的参数可以实现爬取不同信息，可在bgm中右键选择检查获得需要爬取对象的标签.
